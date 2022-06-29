@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_fragment"
+    app:startDestination="@layout/fragment_home">
+
+
+    <fragment
+        android:id="@+id/home_page"
+        android:name="com.shahramkhandagi.project.coffeeapp.fragmentview.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/favorite_page"
+        android:name="com.shahramkhandagi.project.coffeeapp.fragmentview.FavoriteFragment"
+        android:label="Favorite"
+        tools:layout="@layout/fragment_favorite" />
+
+
+    <fragment
+        android:id="@+id/cart_page"
+        android:name="com.shahramkhandagi.project.coffeeapp.fragmentview.CartFragment"
+        android:label="Cart"
+        tools:layout="@layout/fragment_cart" />
+
+
+    <fragment
+        android:id="@+id/profile_page"
+        android:name="com.shahramkhandagi.project.coffeeapp.fragmentview.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+</navigation>
