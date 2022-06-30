@@ -2,38 +2,53 @@ package com.shahramkhandagi.project.coffeeapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
+import androidx.fragment.app.Fragment
+
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.shahramkhandagi.project.coffeeapp.fragmentview.CartFragment
+import com.shahramkhandagi.project.coffeeapp.fragmentview.FavoriteFragment
+
+import com.shahramkhandagi.project.coffeeapp.fragmentview.HomeFragment
+import com.shahramkhandagi.project.coffeeapp.fragmentview.ProfileFragment
 
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var bottomNav: BottomNavigationView
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        bottomNav = findViewById(R.id.nav_fragment)
-        BottomNavigationView.OnNavigationItemSelectedListener { item ->
-            when (item.itemId) {
-                R.id.home_page -> {
-                    Toast.makeText(this, "home", Toast.LENGTH_LONG).show()
-                    true
-                }
-                R.id.favorite_page -> {
-                    Toast.makeText(this, "favorite", Toast.LENGTH_LONG).show()
-                    true
-                }
-                else -> false
-            }
-        
+
+
+        val bottomNav = findViewById<BottomNavigationView>(R.id.bottom_navigation)
+        bottomNav.setOnNavigationItemSelectedListener(navListener)
+
+        //I added this if statement to keep the selected fragment when rotating the device
+
+        //I added this if statement to keep the selected fragment when rotating the device
+        if (savedInstanceState == null) {
+            supportFragmentManager.beginTransaction().replace(
+                R.id.fragment_container,
+                HomeFragment()
+            ).commit()
         }
+
     }
-//    private fun loadFragment(fragment: Fragment){
-//        val transaction = supportFragmentManager.beginTransaction()
-//        transaction.replace(R.id.container,fragment)
-//        transaction.addToBackStack(null)
-//        transaction.commit()
-//    }
+
+    private val navListener =
+        BottomNavigationView.OnNavigationItemSelectedListener { item ->
+            var selectedFragment: Fragment? = null
+            when (item.itemId) {
+                R.id.homeFragment -> selectedFragment = HomeFragment()
+                R.id.favoriteFragment -> selectedFragment = FavoriteFragment()
+                R.id.cartFragment -> selectedFragment = CartFragment()
+                R.id.profileFragment -> selectedFragment = ProfileFragment()
+            }
+            supportFragmentManager.beginTransaction().replace(
+                R.id.fragment_container,
+                selectedFragment!!
+            ).commit()
+            true
+        }
 }

@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/home_page"
-        android:enabled="true"
+        android:id="@+id/homeFragment"
         android:icon="@drawable/bottom_navigation_icon_home"
         android:title="Home"/>
     <item
-        android:id="@+id/favorite_page"
-        android:enabled="true"
+        android:id="@+id/favoriteFragment"
         android:icon="@drawable/bottom_navigation_icon_favorite"
         android:title="Favorite"/>
 
     <item
-        android:id="@+id/cart_page"
-        android:enabled="true"
+        android:id="@+id/cartFragment"
         android:icon="@drawable/bottom_navigation_icon_cart"
         android:title="Cart"/>
 
     <item
-        android:id="@+id/profile_page"
-        android:enabled="true"
+        android:id="@+id/profileFragment"
         android:icon="@drawable/bottom_navigation_icon_profile"
         android:title="Profile"/>
 </menu>
