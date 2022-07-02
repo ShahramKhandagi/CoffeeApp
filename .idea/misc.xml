@@ -7,11 +7,17 @@
         <entry key="..\:/Users/hp/AndroidStudioProjects/CoffeeApp/app/src/main/res/drawable/bottom_navigation_icon_favorite.xml" value="0.27692307692307694" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/CoffeeApp/app/src/main/res/drawable/bottom_navigation_icon_profile.xml" value="0.27692307692307694" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/CoffeeApp/app/src/main/res/drawable/bottom_navigation_icon_select.xml" value="0.28125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/CoffeeApp/app/src/main/res/drawable/btn_circle_background.xml" value="0.27692307692307694" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/CoffeeApp/app/src/main/res/drawable/categories_image_background.xml" value="0.28125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/CoffeeApp/app/src/main/res/drawable/chip_selected_background.xml" value="0.28125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/CoffeeApp/app/src/main/res/drawable/chips_background.xml" value="0.15208333333333332" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/CoffeeApp/app/src/main/res/drawable/favorite-48px (1).xml" value="0.28125" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/CoffeeApp/app/src/main/res/drawable/favorite-48px.xml" value="0.28125" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/CoffeeApp/app/src/main/res/drawable/favorite_fill.xml" value="0.28125" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/CoffeeApp/app/src/main/res/drawable/home-48px (1).xml" value="0.28125" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/CoffeeApp/app/src/main/res/drawable/home-48px.xml" value="0.28125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/CoffeeApp/app/src/main/res/drawable/ic_add.xml" value="0.27692307692307694" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/CoffeeApp/app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.28125" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/CoffeeApp/app/src/main/res/drawable/location_on.xml" value="0.28125" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/CoffeeApp/app/src/main/res/drawable/notifications_none.xml" value="0.28125" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/CoffeeApp/app/src/main/res/drawable/person-48px (1).xml" value="0.28125" />
@@ -19,6 +25,7 @@
         <entry key="..\:/Users/hp/AndroidStudioProjects/CoffeeApp/app/src/main/res/drawable/searchview_background.xml" value="0.28125" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/CoffeeApp/app/src/main/res/drawable/shopping_cart-48px (1).xml" value="0.28125" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/CoffeeApp/app/src/main/res/layout/activity_main.xml" value="0.261025641025641" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/CoffeeApp/app/src/main/res/layout/categories_list_item.xml" value="0.4931506849315068" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/CoffeeApp/app/src/main/res/layout/fragment_cart.xml" value="0.26510416666666664" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/CoffeeApp/app/src/main/res/layout/fragment_favorite.xml" value="0.26510416666666664" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/CoffeeApp/app/src/main/res/layout/fragment_home.xml" value="0.25" />
