@@ -1,10 +1,10 @@
 package com.shahramkhandagi.project.coffeeapp.fragmentview
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.shahramkhandagi.project.coffeeapp.CategoriesAdapter
@@ -26,9 +26,10 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val categoriesRecyclerView = view.findViewById<RecyclerView>(R.id.categoriesRecyclerView)
 
-        val adapter = CategoriesAdapter(activity!!)
+        var adapter = CategoriesAdapter(activity!!)
         categoriesRecyclerView.adapter = adapter
         categoriesRecyclerView.layoutManager = LinearLayoutManager(requireContext(),RecyclerView.HORIZONTAL, false)
+
 
 
     }
