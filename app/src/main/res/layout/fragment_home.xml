@@ -177,27 +177,59 @@
                         android:layout_height="55dp"
                         android:fontFamily="@font/baloo"
                         android:text="Cappuccino"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
                         android:textStyle="bold"
+                        android:checked="true"
                         app:chipIcon="@drawable/ic_cappuccino" />
 
-
-                    <com.google.android.material.chip.Chip xmlns:android="http://schemas.android.com/apk/res/android"
-                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                    <com.google.android.material.chip.Chip
                         android:layout_width="wrap_content"
                         android:layout_height="55dp"
                         android:text="Cold Brew"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+
                         android:fontFamily="@font/baloo"
                         android:textStyle="bold"
                         app:chipIcon="@drawable/coldbrew" />
 
-                    <com.google.android.material.chip.Chip xmlns:android="http://schemas.android.com/apk/res/android"
-                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                    <com.google.android.material.chip.Chip
                         android:layout_width="wrap_content"
                         android:layout_height="55dp"
                         android:text="Espresso"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+
                         android:fontFamily="@font/baloo"
                         android:textStyle="bold"
                         app:chipIcon="@drawable/ic_espresso" />
+
+                    <com.google.android.material.chip.Chip
+                        android:layout_width="wrap_content"
+                        android:layout_height="55dp"
+                        android:text="Latte"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:fontFamily="@font/baloo"
+                        android:textStyle="bold"
+                        app:chipIcon="@drawable/ic_espresso" />
+
+                    <com.google.android.material.chip.Chip
+                        android:layout_width="wrap_content"
+                        android:layout_height="55dp"
+                        android:text="Affogato"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:fontFamily="@font/baloo"
+                        android:textStyle="bold"
+                        app:chipIcon="@drawable/ic_espresso" />
+
+                    <com.google.android.material.chip.Chip
+                        android:layout_width="wrap_content"
+                        android:layout_height="55dp"
+                        android:text="Americano"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:fontFamily="@font/baloo"
+                        android:textStyle="bold"
+                        android:layout_marginEnd="10dp"
+                        app:chipIcon="@drawable/ic_espresso" />
+
 
                 </com.google.android.material.chip.ChipGroup>
             </HorizontalScrollView>
